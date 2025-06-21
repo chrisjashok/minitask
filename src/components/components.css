@@ -1,0 +1,174 @@
+.txt_field {
+  display: flex;
+  width: 25vw;
+}
+
+.custom_btn {
+  display: flex;
+  width: 25vw;
+  height: 7vh;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 25vw;
+}
+
+.home_tableHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7vh;
+  width: 100%;
+  background-color: rgb(236, 236, 236);
+}
+
+.home_tableTitle {
+  /* color: red; */
+  width: 10rem;
+  font-weight: bold;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  /* border: 1px solid; */
+}
+
+.home_tableBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.home_tableCell {
+  display: flex;
+  height: 3.5rem;
+  width: 10rem;
+  /* background-color: blue; */
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px solid;    */
+}
+
+.home_actionbtn{
+  display: flex;
+  height: 2rem;
+  width: 4rem;
+}
+
+.home_pagination {
+  .MuiPaginationItem-page.Mui-selected {
+    border-color: rgb(107, 107, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .MuiPaginationItem-page:not(.Mui-selected) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .MuiPaginationItem-icon {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+}
+
+.card {
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 13vw;
+  transition: box-shadow 0.3s ease !important;
+}
+
+.card-actions {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 13vw;
+  top: auto;
+  left: auto;
+  right: 0;
+  /* bottom: 17.7rem; */
+  margin: auto;
+  gap: 1.3rem;
+  z-index: 100;
+  background-color: rgba(207, 220, 250, 0.377);
+}
+
+.Edit_iconButton {
+  background-color: rgb(118, 204, 253) !important;
+  height: 3rem !important;
+  width: 3rem !important;
+}
+
+.Delete_iconButton {
+  background-color: rgb(250, 49, 49) !important;
+  height: 3rem !important;
+  width: 3rem !important;
+}
+
+.Icon {
+  height: 1.7rem !important;
+  width: 1.7rem !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.card_Avatar {
+  display: flex !important;
+  height: 11vh !important;
+  width: 5vw !important;
+  margin-bottom: 0.5em !important;
+}
+
+.cart_name {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
+.cart_Email {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.modal{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.modal_box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  height: 80vh;
+  width: 30vw;
+  border-radius: 5px;
+}
+
+.title_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem 0 1rem;
+  height: 4rem;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+}
+
+.title_txt{
+  font-size: 18.6px !important;
+  font-weight: 600 !important;
+}
+
+.divider{
+  height: 1px !important;
+}
